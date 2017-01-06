@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Portfolio - Marco van Poortvliet</title>
+    <title>Marco van Poortvliet</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/style.css" />
@@ -386,13 +386,13 @@
 						<div class="col s12 m6">
 							<h4>Equirent</h4>
 							<p class="light">
-							Voorheen werd er in het Technum, een vleugel van Scalda Vlissingen waar machines worden verhuurt, met een aantal Excelsheets gewerkt. 
-							Hierin stonden alle weken van het jaar vermeld, de machines die verhuurd kunnen worden en de uren. 
-							Hier werden de reserveringen geboekt voor het verhuren van machines. 
-							Ook werden er op basis van het totaal aantal uur dat er machines verhuurd zijn kosten berekend. 
-							Voor de avond- en dagbezetting was er een apart document om het overzichtelijk te houden. 
-							Ook hier werden de kosten weer apart berekend, wat dus betekent dat er nog een document nodig was om deze kosten bij elkaar op te tellen. 
-							Aangezien dit in de praktijk steeds meer werk bleek, hebben we op school een applicatie geschreven om dit proces makkelijker te maken.
+								Voorheen werd er in het Technum, een vleugel van Scalda Vlissingen waar machines worden verhuurt, met een aantal Excelsheets gewerkt. 
+								Hierin stonden alle weken van het jaar vermeld, de machines die verhuurd kunnen worden en de uren. 
+								Hier werden de reserveringen geboekt voor het verhuren van machines. 
+								Ook werden er op basis van het totaal aantal uur dat er machines verhuurd zijn kosten berekend. 
+								Voor de avond- en dagbezetting was er een apart document om het overzichtelijk te houden. 
+								Ook hier werden de kosten weer apart berekend, wat dus betekent dat er nog een document nodig was om deze kosten bij elkaar op te tellen. 
+								Aangezien dit in de praktijk steeds meer werk bleek, hebben we op school een applicatie geschreven om dit proces makkelijker te maken.
 							</p>
 						</div>
 
