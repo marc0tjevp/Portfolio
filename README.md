@@ -1,6 +1,6 @@
-# * [Portfolio](https://marcovp.nl/)
+# [Portfolio](https://marcovp.nl/)
 
-This project contains my personal portfolio where you can read my experience, contactinfo and projects.
+This project contains my personal portfolio where you can view my experience, contactinfo and projects.
 
 ## Contribution
 Contributions to the project are currently closed.
