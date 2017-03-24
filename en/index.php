@@ -4,13 +4,13 @@
     <head>
         <title>Marco van Poortvliet</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
         <link type="text/css" rel="stylesheet" href="css/style.css" />
         <link type="text/css" rel="stylesheet" href="css/animations.css" />
         <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="google-site-verification" content="msi0IDljkgWpilbJwV3yLL5uLQqu5D5-Gmd7IlALsgI" />
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<meta name="google-site-verification" content="msi0IDljkgWpilbJwV3yLL5uLQqu5D5-Gmd7IlALsgI" />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/init.js"></script>
     </head>
@@ -22,9 +22,9 @@
                 <div class="nav-wrapper">
                     <div class="container"> <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a> <a href="#top" class="brand-logo black-text">Portfolio</a>
                         <ul class="hide-on-med-and-down right">
-                            <li><a href="#overmij">Over mij</a></li>
-                            <li><a href="#ervaring">Ervaring</a></li>
-                            <li><a href="#projecten">Projecten</a></li>
+                            <li><a href="#overmij">About Me</a></li>
+                            <li><a href="#ervaring">Experience</a></li>
+                            <li><a href="#projecten">Projects</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -32,18 +32,15 @@
             </nav>
         </div>
         <ul class="side-nav" id="mobile-demo">
-            <li><a href="#overmij">Over mij</a></li>
-            <li><a href="#ervaring">Ervaring</a></li>
-            <li><a href="#projecten">Projecten</a></li>
+            <li><a href="#overmij">About Me</a></li>
+            <li><a href="#ervaring">Experience</a></li>
+            <li><a href="#projecten">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
 
         <div id="top" class="scrollspy parallax-container z-depth-2">
-            <div class="parallax">
-                <img src="img/parallax.jpg">
-            </div>
-            <div class="col l12 center parallax-offset">
-                <img src="img/photo.jpg" class="profilepic circle responsive-img z-depth-1">
+            <div class="parallax"> <img src="img/parallax.jpg"> </div>
+            <div class="col l12 center parallax-offset"> <img src="img/photo.jpg" class="profilepic circle responsive-img z-depth-1">
                 <h3 class="parallax-name">Marco van Poortvliet</h3>
                 <div class="z-depth-1 parallax-title">Software Developer</div>
             </div>
@@ -59,25 +56,20 @@
 
         <div id="overmij" class="section scrollspy darkbox">
             <div class="container">
-                <div class="section-title center">Over Mij</div>
+                <div class="section-title center">About me</div>
                 <div class="row">
                     <div class="col l6 m6 s12 center">
-                        <div class="subtitle">Wie ben ik?</div>					
+                        <div class="subtitle">Who am I?</div>					
                         <p>
-                            Mijn naam is Marco van Poortvliet. Ik ben een student Applicatie- &amp; Mediaontwikkeling die niet van stilzitten houdt. 
-                            Ik ben qua leren en programmeren altijd wel ergens mee bezig. 
-                            Op dit moment volg ik een versneld traject op het Scalda te Vlissingen.
-                            Dit jaar zal ik daar afstuderen en beginnen op Avans Hogeschool Breda aan een HBO-opleiding Informatica.
-
-                            Naast studeren heb ik samen met <a href="http://giovannikint.nl">Giovanni Kint</a> een eigen bedrijf: Pixl Perfect. Via deze pilot verdiepen we onszelf in webdevelopment.
-
-                            U kunt contact met mij opnemen via mijn gegevens onderaan de pagina of door het mailformulier in te vullen.
-
+							My name is Marco van Poortvliet. I'm a student majoring in Software Development who doesn't like standing still. I'm always programming or learning something new. 
+							This year I will graduate and start a new study at Avans Hogeschool Breda: information technology.
+							
+							In my free time I run a small bussiness with <a href="http://giovannikint.nl">Giovanni Kint</a>: Pixl Perfect. This is a pilot to learn more about webdevelopment.
                         </p>
                     </div>
                     <div class="col l6 m6 s12 center">				
                         <div class="subtitle">Skills</div>
-                        <p>Ik heb ervaring met de onderstaande talen, technieken &amp; frameworks.</p>
+                        <p>I have experience with the following languages and frameworks</p>
                         <div class="chip">HTML</div>
                         <div class="chip">CSS</div>
                         <div class="chip">Java</div>
@@ -103,7 +95,7 @@
 
         <div id="ervaring" class="section scrollspy whitebox">
             <div class="container">
-                <div class="section-title center">Ervaring</div>
+                <div class="section-title center">Experience</div>
 
                 <div class="row">
 
@@ -112,11 +104,11 @@
                             <div class="card-content grey lighten-4">
                                 <div class="row">
                                     <div class="col l3 m4 s4">
-                                        <img src="img/scalda.png" alt="Scalda" class="responsive-img">
+                                        <img src="img/scalda.png" class="responsive-img">
                                     </div>
                                     <div class="col l8 m8 s8">
-                                        <span class="card-title black-text">Applicatie- en Mediaontwikkeling</span>
-                                        <p>September 2015 - Heden</p>
+                                        <span class="card-title black-text">Software and Media Development</span>
+                                        <p>September 2015 - Now</p>
                                         <p>Scalda College voor Techniek &amp; Design</p>
                                     </div>
                                 </div>
@@ -130,11 +122,11 @@
                             <div class="card-content grey lighten-4">
                                 <div class="row">
                                     <div class="col l3 m4 s4">
-                                        <img src="img/mollerlyceum.png" alt="Mollerlyceum" class="responsive-img">
+                                        <img src="img/mollerlyceum.png" class="responsive-img">
                                     </div>
                                     <div class="col l8 m8 s8">
-                                        <span class="card-title black-text">HAVO</span>
-                                        <p>September 2012 - Juni 2015</p>
+                                        <span class="card-title truncate-text black-text">HAVO</span>
+                                        <p>September 2012 - June 2015</p>
                                         <p>Mollerlyceum</p>
                                     </div>
                                 </div>
@@ -152,11 +144,11 @@
                             <div class="card-content grey lighten-4">
                                 <div class="row">
                                     <div class="col l3 m4 s4">
-                                        <img src="img/trust.png" alt="Trust International B.V." class="responsive-img">
+                                        <img src="img/trust.png" class="responsive-img">
                                     </div>
                                     <div class="col l8 m8 s8">
                                         <span class="card-title black-text">Application Developer Trainee</span>
-                                        <p>September 2016 - Februari 2017</p>
+                                        <p>September 2016 - Now</p>
                                         <p>Trust International B.V.</p>
                                     </div>
                                 </div>
@@ -170,11 +162,11 @@
                             <div class="card-content grey lighten-4">
                                 <div class="row">
                                     <div class="col l3 m4 s4">
-                                        <img src="img/pixl2.png" alt="Pixl Perfect" class="responsive-img">
+                                        <img src="img/pixl2.png" class="responsive-img">
                                     </div>
                                     <div class="col l8 m8 s8">
-                                        <span class="card-title black-text">Front-End Developer</span>
-                                        <p>Juni 2016 - Heden</p>
+                                        <span class="card-title truncate-text black-text">Front-End Developer</span>
+                                        <p>June 2016 - Now</p>
                                         <p>Pixl Perfect Webdevelopment</p>
                                     </div>
                                 </div>
@@ -190,7 +182,7 @@
 
         <div id="projecten" class="section scrollspy darkbox">
             <div class="container">
-                <div class="section-title center">Projecten</div>
+                <div class="section-title center">Projects</div>
                 <div class="projectrow row center">
                     <div class="col l3 m6 s12">
                         <div class="hovereffect z-depth-2"> <img class="responsive-img" src="img/pixl.png">
@@ -234,7 +226,7 @@
                         <div class="mobile-divider"></div>
                     </div>
                     <div class="col l4 offset-l1 s12">
-                        <div class="footer-title">Contactgegevens</div>
+                        <div class="footer-title">Contact Information</div>
                         <p> 
                             <i class="fa fa-map-marker"></i> Ten Ankerweg 14, 4691GW Tholen
                             <br><i class="fa fa-phone"></i> 06 860 008 53
@@ -261,23 +253,17 @@
                         <div class="col s12 m6">
                             <h4>Pixl Perfect</h4>
                             <p class="light">
-                                In de zomervakantie van 2016 hebben <a href="http://giovannikint.nl/">Giovanni Kint</a> en ik dit bedrijf opgericht als pilot. We hebben dit gedaan via de cursus <a href="http://zomerondernemer.nl">ZomerOndernemer</a>.
+                                In de zomervakantie van 2016 hebben <a href="http://giovannikint.nl/">Giovanni Kint</a> en ik dit bedrijf opgericht als pilot. We hebben dit gedaan via de cursus <a href="http://zomerondernemer.nl">ZomerOndernemer</a> gedaan.
                                 <br><br>
                                 Binnen dit bedrijf maken we websites en webapplicaties voor klanten. Deze klanten zijn vooral kleine bedrijven, ZZP'ers en startende ondernemers.
                             </p>
-
-                            <p class="light">Het logo is gemaakt door <a href="http://roeldejongdesign.nl/" target="_blank">Roel de Jong Design</a></p>
-
-                            <div class="col s12 l12 m12" style="padding-left: 0">
-                                <a class="btn white black-text waves-effect" href="https://pixlperfect.net/" target="_blank">Website bezoeken</a>
-                                <a class="btn white black-text waves-effect" href="https://pixlperfect.net/#contact" target="_blank">Contact</a>
-                            </div>
-
+                            <a class="btn white black-text waves-effect" href="https://pixlperfect.net/" target="_blank">Website bezoeken</a>
+                            <a class="btn white black-text waves-effect" href="https://pixlperfect.net/#contact" target="_blank">Contact opnemen</a>
                         </div>
                         <div class="col s12 m6 l6 center">
                             <br>
                             <img class="materialboxed z-depth-2" data-caption="Logo" width="100%" src="img/project/tiles/pixl.png">
-                            <br>
+                            <br> 
                         </div>
                     </div>
                 </div>
@@ -288,25 +274,8 @@
             <div class="modal-content">
                 <div class="container">
                     <div class="row">
-
                         <a class="modal-action modal-close floating btn-flat"><h5>X</h5></a>
-
-                        <div class="col s12 m6">
-                            <h4>CARS</h4>
-                            <p class="light">
-                                Tijdens mijn stage bij Trust heb ik aan het toen al bestaande programma CARS gewerkt. Binnen dit programma heb ik een uitbreiding gemaakt die het mogelijk maakt om sales bestanden te kunnen valideren. Op deze manier kan er tijd bespaard worden omdat dit heb (manueel) zoeken naar fouten makkelijk maakt.
-                            </p>
-
-                            <div class="col s12 l12 m12" style="padding-left: 0">
-                                <a class="btn white black-text waves-effect" href="http://trust.com" target="_blank">Website Trust</a>
-                            </div>
-
-                        </div>
-                        <div class="col s12 m6 l6 center">
-                            <br>
-                            <img class="materialboxed z-depth-2" data-caption="Logo" width="100%" src="img/cars.png">
-                            <br>
-                        </div>
+                        <h4>CARS</h4>
                     </div>
                 </div>
             </div>
