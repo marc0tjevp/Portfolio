@@ -40,8 +40,8 @@
 
         <div id="top" class="scrollspy parallax-container z-depth-2">
             <div class="parallax">
-              <video autoplay>
-                    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+              <video autoplay loop>
+                    <source src="http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_720p_stereo.ogg" type="video/ogg">
               </video>
             </div>
             <div class="col l12 center parallax-offset">
