@@ -17,10 +17,10 @@
 
     <body>
 
-        <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
-                    <div class="container"> <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a> <a href="#top" class="brand-logo black-text">Portfolio</a>
+                    <div class="container">
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
                         <ul class="hide-on-med-and-down right">
                             <li><a href="#overmij">Over mij</a></li>
                             <li><a href="#ervaring">Ervaring</a></li>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </nav>
-        </div>
+
         <ul class="side-nav" id="mobile-demo">
             <li><a href="#overmij">Over mij</a></li>
             <li><a href="#ervaring">Ervaring</a></li>
@@ -40,7 +40,7 @@
 
         <div id="top" class="scrollspy parallax-container z-depth-2">
             <div class="parallax">
-              <video autoplay loop>
+              <video autoplay loop muted>
                     <source src="vid/header.mp4" type="video/mp4">
               </video>
             </div>
