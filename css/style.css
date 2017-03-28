@@ -124,3 +124,11 @@ footer i {
 .chip {
 	border-radius: 0;
 }
+
+.parallax video {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
