@@ -41,7 +41,7 @@
         <div id="top" class="scrollspy parallax-container z-depth-2">
             <div class="parallax">
               <video autoplay loop>
-                    <source src="vid/header.mp4" type="video/ogg">
+                    <source src="vid/header.mp4" type="video/mp4">
               </video>
             </div>
             <div class="col l12 center parallax-offset">
@@ -220,33 +220,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="projectrow row center">
-                    <div class="col l3 m6 s12">
-                        <div class="hovereffect z-depth-2"> <img class="responsive-img" src="img/pixl.png">
-                            <div class="overlay">
-                                <h2>Pixl Perfect</h2> <a class="btn-floating white info" href="https://pixlperfect.net" target="_blank"><i class="fa fa-link"></i></a> <a class="btn-floating white info" href="#pixlPerfect"><i class="fa fa-info"></i></a> </div>
-                        </div>
-                    </div>
-                    <div class="col l3 m6 s12">
-                        <div class="hovereffect z-depth-2"> <img class="responsive-img" src="img/cars.png">
-                            <div class="overlay">
-                                <h2>CARS</h2> <a class="btn-floating white info" href="#cars"><i class="fa fa-info"></i></a> </div>
-                        </div>
-                    </div>
-                    <div class="col l3 m6 s12">
-                        <div class="hovereffect z-depth-2"> <img class="responsive-img" src="img/eq.jpg">
-                            <div class="overlay">
-                                <h2>Equirent</h2> <a class="btn-floating white info" href="#equirent"><i class="fa fa-info"></i></a> </div>
-                        </div>
-                    </div>
-                    <div class="col l3 m6 s12">
-                        <div class="hovereffect z-depth-2"> <img class="responsive-img" src="img/ak.jpg">
-                            <div class="overlay">
-                                <h2>Animal Kingdom</h2> <a class="btn-floating white info" href="#animalKingdom"><i class="fa fa-info"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
 
               <!--   <ul class="pagination center">
                     <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
