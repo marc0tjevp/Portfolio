@@ -40,7 +40,9 @@
 
         <div id="top" class="scrollspy parallax-container z-depth-2">
             <div class="parallax">
-                <img src="img/parallax.jpg">
+              <video autoplay>
+                    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+              </video>
             </div>
             <div class="col l12 center parallax-offset">
                 <img src="img/photo.jpg" class="profilepic circle responsive-img z-depth-1">
@@ -50,9 +52,9 @@
             <div class="col l12 center parallax-offset">
                 <a href="https://www.linkedin.com/in/marc0tjevp" target="_blank" class="btn-floating btn-large waves-effect waves white"><i class="fa fa-linkedin"></i></a>
                 <a href="#contact" class="btn-floating btn-large waves-effect waves white"><i class="fa fa-envelope-o"></i></a>
-                <a href="docs/cv.pdf" target="_blank" class="btn-floating btn-large waves-effect waves white"><i class="fa fa-file-text-o"></i></a> 
+                <a href="docs/cv.pdf" target="_blank" class="btn-floating btn-large waves-effect waves white"><i class="fa fa-file-text-o"></i></a>
                 <a href="https://github.com/marc0tjevp" target="_blank" class="btn-floating btn-large waves-effect waves white"><i class="fa fa-github"></i></a>
-                <a href="skype:marco.vp" class="btn-floating btn-large waves-effect waves white"><i class="fa fa-skype"></i></a> 
+                <a href="skype:marco.vp" class="btn-floating btn-large waves-effect waves white"><i class="fa fa-skype"></i></a>
             </div>
             <div class="parallax-offset"></div>
         </div>
@@ -62,10 +64,10 @@
                 <div class="section-title center">Over Mij</div>
                 <div class="row">
                     <div class="col l6 m6 s12 center">
-                        <div class="subtitle">Wie ben ik?</div>					
+                        <div class="subtitle">Wie ben ik?</div>
                         <p>
-                            Mijn naam is Marco van Poortvliet. Ik ben een student Applicatie- &amp; Mediaontwikkeling die niet van stilzitten houdt. 
-                            Ik ben qua leren en programmeren altijd wel ergens mee bezig. 
+                            Mijn naam is Marco van Poortvliet. Ik ben een student Applicatie- &amp; Mediaontwikkeling die niet van stilzitten houdt.
+                            Ik ben qua leren en programmeren altijd wel ergens mee bezig.
                             Op dit moment volg ik een versneld traject op het Scalda te Vlissingen.
                             Dit jaar zal ik daar afstuderen en beginnen op Avans Hogeschool Breda aan een HBO-opleiding Informatica.
 
@@ -75,7 +77,7 @@
 
                         </p>
                     </div>
-                    <div class="col l6 m6 s12 center">				
+                    <div class="col l6 m6 s12 center">
                         <div class="subtitle">Skills</div>
                         <p>Ik heb ervaring met de onderstaande talen, technieken &amp; frameworks.</p>
                         <div class="chip">HTML</div>
@@ -99,7 +101,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="ervaring" class="section scrollspy whitebox">
             <div class="container">
@@ -191,7 +193,35 @@
         <div id="projecten" class="section scrollspy darkbox">
             <div class="container">
                 <div class="section-title center">Projecten</div>
-                <div class="projectrow row center">
+
+                    <div class="projectrow row center">
+                        <div class="col l3 m6 s12">
+                            <div class="hovereffect z-depth-2"> <img class="responsive-img" src="img/pixl.png">
+                                <div class="overlay">
+                                    <h2>Pixl Perfect</h2> <a class="btn-floating white info" href="https://pixlperfect.net" target="_blank"><i class="fa fa-link"></i></a> <a class="btn-floating white info" href="#pixlPerfect"><i class="fa fa-info"></i></a> </div>
+                            </div>
+                        </div>
+                        <div class="col l3 m6 s12">
+                            <div class="hovereffect z-depth-2"> <img class="responsive-img" src="img/cars.png">
+                                <div class="overlay">
+                                    <h2>CARS</h2> <a class="btn-floating white info" href="#cars"><i class="fa fa-info"></i></a> </div>
+                            </div>
+                        </div>
+                        <div class="col l3 m6 s12">
+                            <div class="hovereffect z-depth-2"> <img class="responsive-img" src="img/eq.jpg">
+                                <div class="overlay">
+                                    <h2>Equirent</h2> <a class="btn-floating white info" href="#equirent"><i class="fa fa-info"></i></a> </div>
+                            </div>
+                        </div>
+                        <div class="col l3 m6 s12">
+                            <div class="hovereffect z-depth-2"> <img class="responsive-img" src="img/ak.jpg">
+                                <div class="overlay">
+                                    <h2>Animal Kingdom</h2> <a class="btn-floating white info" href="#animalKingdom"><i class="fa fa-info"></i></a> </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projectrow row center">
                     <div class="col l3 m6 s12">
                         <div class="hovereffect z-depth-2"> <img class="responsive-img" src="img/pixl.png">
                             <div class="overlay">
@@ -217,11 +247,12 @@
                         </div>
                     </div>
                 </div>
-                <ul class="pagination center">
+
+              <!--   <ul class="pagination center">
                     <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
                     <li class="active"><a href="#!">1</a></li>
                     <li class="disabled"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
 
@@ -235,7 +266,7 @@
                     </div>
                     <div class="col l4 offset-l1 s12">
                         <div class="footer-title">Contactgegevens</div>
-                        <p> 
+                        <p>
                             <i class="fa fa-map-marker"></i> Ten Ankerweg 14, 4691GW Tholen
                             <br><i class="fa fa-phone"></i> 06 860 008 53
                             <br> <i class="fa fa-skype"></i> Marco.vp
@@ -327,7 +358,7 @@
                         <div class="col s12 m6 l6 center">
                             <br>
                             <img class="materialboxed z-depth-2" data-caption="Logo" width="100%" src="img/project/photos/ak2.jpg">
-                            <br> 
+                            <br>
                         </div>
                     </div>
 
@@ -339,10 +370,10 @@
 
                             <div class="chip z-depth-1">
                                 <i class="fa fa-coffee" aria-hidden="true"></i> Java
-                            </div> 
+                            </div>
                             <div class="chip z-depth-1">
                                 <i class="fa fa-html5" aria-hidden="true"></i> HTML5
-                            </div> 
+                            </div>
                             <div class="chip z-depth-1">
                                 <i class="fa fa-css3" aria-hidden="true"></i> CSS3
                             </div>
@@ -419,12 +450,12 @@
                         <div class="col s12 m6">
                             <h4>Equirent</h4>
                             <p class="light">
-                                Voorheen werd er in het Technum, een vleugel van Scalda Vlissingen waar machines worden verhuurt, met een aantal Excelsheets gewerkt. 
-                                Hierin stonden alle weken van het jaar vermeld, de machines die verhuurd kunnen worden en de uren. 
-                                Hier werden de reserveringen geboekt voor het verhuren van machines. 
-                                Ook werden er op basis van het totaal aantal uur dat er machines verhuurd zijn kosten berekend. 
-                                Voor de avond- en dagbezetting was er een apart document om het overzichtelijk te houden. 
-                                Ook hier werden de kosten weer apart berekend, wat dus betekent dat er nog een document nodig was om deze kosten bij elkaar op te tellen. 
+                                Voorheen werd er in het Technum, een vleugel van Scalda Vlissingen waar machines worden verhuurt, met een aantal Excelsheets gewerkt.
+                                Hierin stonden alle weken van het jaar vermeld, de machines die verhuurd kunnen worden en de uren.
+                                Hier werden de reserveringen geboekt voor het verhuren van machines.
+                                Ook werden er op basis van het totaal aantal uur dat er machines verhuurd zijn kosten berekend.
+                                Voor de avond- en dagbezetting was er een apart document om het overzichtelijk te houden.
+                                Ook hier werden de kosten weer apart berekend, wat dus betekent dat er nog een document nodig was om deze kosten bij elkaar op te tellen.
                                 Aangezien dit in de praktijk steeds meer werk bleek, hebben we op school een applicatie geschreven om dit proces makkelijker te maken.
                             </p>
                         </div>
