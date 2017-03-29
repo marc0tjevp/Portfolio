@@ -11,6 +11,10 @@ nav ul a {
     color: #ffffff;
 }
 
+.parallax {
+  position: fixed;
+}
+
 .parallax-offset {
     padding-top: 50px;
 }
