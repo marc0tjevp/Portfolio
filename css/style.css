@@ -29,11 +29,8 @@ nav ul a {
 
 .parallax-title {
     width: inherit;
-    display: inline-block;
-    text-align: center;
-    background-color: #ffffff;
-    padding: 10px;
-    margin-top: 15px;
+    color: #ffffff;
+    margin-top: -10px;
 }
 
 .parallax-container {

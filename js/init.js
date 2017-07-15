@@ -10,6 +10,8 @@ $(document).ready(function () {
         scrollOffset: 55
     });
 
+    GHRepos.create('.projects a')
+
 //    $(".parallax-container").css('min-height', window.innerHeight);
 
     $('.modal').modal({
