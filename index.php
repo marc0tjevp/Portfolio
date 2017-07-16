@@ -46,7 +46,7 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
 
-    <div id="top" class="scrollspy parallax-container z-depth-2">
+    <div id="top" class="scrollspy parallax-container">
       <div class="parallax">
         <video autoplay loop muted>
           <source src="vid/header.mp4" type="video/mp4">
@@ -77,7 +77,6 @@
               Mijn naam is Marco van Poortvliet. Ik ben een student Applicatie- &amp; Mediaontwikkeling die niet van stilzitten houdt. Ik ben qua leren en programmeren altijd wel ergens mee bezig. Op dit moment volg ik een versneld traject op het Scalda te Vlissingen.
               Dit jaar zal ik daar afstuderen en beginnen op Avans Hogeschool Breda aan een HBO-opleiding Informatica. Naast studeren heb ik samen met <a href="http://giovannikint.nl">Giovanni Kint</a> een eigen bedrijf: Pixl Perfect. Via
               deze pilot verdiepen we onszelf in webdevelopment. U kunt contact met mij opnemen via mijn gegevens onderaan de pagina of door het mailformulier in te vullen.
-
             </p>
           </div>
           <div class="col l6 m6 s12 center">
@@ -140,7 +139,7 @@
             </div>
 
             <div class="row center">
-              <a class="btn grey darken-3" href="http://github.com/marc0tjevp"><i class="fa fa-github"></i> See More On GitHub</a>
+              <a class="btn grey darken-3" target="_blank" href="http://github.com/marc0tjevp?tab=repositories"><i class="fa fa-github"></i> See More On GitHub</a>
             </div>
 
           </div>

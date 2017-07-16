@@ -142,3 +142,7 @@ footer i {
   min-width: 100%;
   min-height: 100%;
 }
+
+.btn {
+  text-transform: none;
+}
