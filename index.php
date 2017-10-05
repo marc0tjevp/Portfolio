@@ -2,84 +2,75 @@
 <html>
 
   <head>
+
+    <!-- Meta Tags -->
     <title>Marco van Poortvliet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Style Sheets -->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
     <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/github-box.css" />
+    <link type="text/css" rel="stylesheet" href="css/banner.css" />
 
     <!-- Fonts -->
     <link type="text/css" rel="stylesheet" href="css/socialfont.css" />
     <link type="text/css" rel="stylesheet" href="css/awesomefont.css">
 
-    <!-- Scripts -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/init.js"></script>
-
-    <!-- GitHub-Box -->
-    <link type="text/css" rel="stylesheet" href="css/github-box.css" />
-    <script type="text/javascript" src="js/github-box.js"></script>
   </head>
 
   <body>
-
-    <nav>
-      <div class="nav-wrapper">
-        <div class="container">
-          <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
-          <ul class="hide-on-med-and-down right">
-            <li><a href="#overmij">About Me</a></li>
-            <li><a href="#projecten">Projects</a></li>
-            <li><a href="#ervaring">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
     <ul class="side-nav" id="mobile-nav">
       <li><a href="#overmij">About Me</a></li>
       <li><a href="#projecten">Projects</a></li>
       <li><a href="#ervaring">Experience</a></li>
+      <li><a href="http://blog.marcovp.nl">Blog</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
 
-    <div id="top" class="scrollspy parallax-container">
-      <div class="parallax">
-        <video autoplay loop muted>
-          <source src="vid/header.mp4" type="video/mp4">
-        </video>
+    <!-- Banner & Menu -->
+    <header class="banner">
+  		<span class="background"></span>
+      <nav>
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
+            <ul class="hide-on-med-and-down right">
+              <li><a href="#overmij">About Me</a></li>
+              <li><a href="#projecten">Projects</a></li>
+              <li><a href="#ervaring">Experience</a></li>
+              <li><a href="http://blog.marcovp.nl">Blog</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="col l12 center">
+        <h3 class="parallax-name" style="font-size: 42px;">Marco van Poortvliet</h3>
+        <div class="parallax-title">Software Developer &amp; Student Information Technology</div>
       </div>
       <div class="col l12 center parallax-offset">
-        <img src="img/photo.jpg" style="max-height: 175px;" class="profilepic responsive-img z-depth-1">
-        <h3 class="parallax-name" style="font-size: 30px;">Marco van Poortvliet</h3>
-        <div class="parallax-title">Software Developer &amp; Student</div>
-      </div>
-      <div class="col l12 center parallax-offset">
-        <a href="https://www.linkedin.com/in/marc0tjevp" target="_blank" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="top" data-delay="50" data-tooltip="Visit my LinkedIn"><i class="fa fa-linkedin"></i></a>
-        <a href="#contact" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="top" data-delay="50" data-tooltip="Send me an Email"><i class="fa fa-envelope-o"></i></a>
-        <a href="docs/cv.pdf" target="_blank" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="top" data-delay="50" data-tooltip="Download my CV"><i class="fa fa-file-text-o"></i></a>
-        <a href="https://github.com/marc0tjevp" target="_blank" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="top" data-delay="50" data-tooltip="Visit my GitHub"><i class="fa fa-github"></i></a>
-        <!-- <a href="#" target="_blank" class="btn-floating btn-large waves-effect waves white"><i class="social-discord"></i></a> -->
-      </div>
-      <div class="parallax-offset"></div>
-    </div>
+        <a href="https://www.linkedin.com/in/marc0tjevp" target="_blank" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Visit my LinkedIn"><i class="fa fa-linkedin"></i></a>
+        <a href="#contact" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Send me an Email"><i class="fa fa-envelope-o"></i></a>
+        <a href="docs/cv.pdf" target="_blank" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Download my CV"><i class="fa fa-file-text-o"></i></a>
+        <a href="https://github.com/marc0tjevp" target="_blank" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Visit my GitHub"><i class="fa fa-github"></i></a>
+       </div>
+  	</header>
 
     <div id="overmij" class="section scrollspy whitebox">
       <div class="container">
         <div class="section-title center">About me</div>
         <div class="row">
-          <div class="col l6 m6 s12 center">
+          <div class="col l6 m6 s12">
             <div class="subtitle">About Me</div>
             <p>
-              Mijn naam is Marco van Poortvliet. Ik ben een student Applicatie- &amp; Mediaontwikkeling die niet van stilzitten houdt. Ik ben qua leren en programmeren altijd wel ergens mee bezig. Op dit moment volg ik een versneld traject op het Scalda te Vlissingen.
-              Dit jaar zal ik daar afstuderen en beginnen op Avans Hogeschool Breda aan een HBO-opleiding Informatica. Naast studeren heb ik samen met <a href="http://giovannikint.nl">Giovanni Kint</a> een eigen bedrijf: Pixl Perfect. Via
-              deze pilot verdiepen we onszelf in webdevelopment. U kunt contact met mij opnemen via mijn gegevens onderaan de pagina of door het mailformulier in te vullen.
+            Hi there! Thanks for visiting my portfolio. My name is Marco van Poortvliet and I'm a Dutch computer enthousiast and Student Information Technology at Avans Hogeschool in Breda.
+            I'm mostly active making websites and apps, but I'm always exploring new things. You can find most of my projects on this page and my <a href="https://github.com/marc0tjevp">GitHub</a>.
             </p>
           </div>
-          <div class="col l6 m6 s12 center">
+          <div class="col l6 m6 s12">
             <div class="subtitle">Skills</div>
             <div class="chip">HTML</div>
             <div class="chip">CSS</div>
@@ -139,7 +130,7 @@
             </div>
 
             <div class="row center">
-              <a class="btn grey darken-3" target="_blank" href="http://github.com/marc0tjevp?tab=repositories"><i class="fa fa-github"></i> See More On GitHub</a>
+              <a class="btn grey darken-3" target="_blank" href="http://github.com/marc0tjevp?tab=repositories"><i class="fa fa-github"></i> More on GitHub</a>
             </div>
 
           </div>
@@ -161,8 +152,8 @@
                   <img src="img/avans.png" alt="Avans" class="responsive-img">
                 </div>
                 <div class="col l8 m8 s8">
-                  <span class="black-text">Informatica</span>
-                  <p>September 2017 - Heden</p>
+                  <span class="black-text">Information Technology</span>
+                  <p>September 2017 - Now</p>
                   <p>Avans Hogeschool Breda</p>
                 </div>
               </div>
@@ -176,8 +167,8 @@
                   <img src="img/scalda.png" alt="Scalda" class="responsive-img">
                 </div>
                 <div class="col l8 m8 s8">
-                  <span class="black-text">Applicatie- en Mediaontwikkeling</span>
-                  <p>September 2015 - Juli 2017</p>
+                  <span class="black-text">Application Development</span>
+                  <p>September 2015 - July 2017</p>
                   <p>Scalda College voor Techniek &amp; Design</p>
                 </div>
               </div>
@@ -193,7 +184,7 @@
                 </div>
                 <div class="col l8 m8 s8">
                   <span class="card-title black-text">HAVO</span>
-                  <p>September 2012 - Juni 2015</p>
+                  <p>September 2012 - June 2015</p>
                   <p>Mollerlyceum</p>
                 </div>
               </div>
@@ -209,7 +200,7 @@
                 </div>
                 <div class="col l8 m8 s8">
                   <span class="card-title black-text">Application Developer Trainee</span>
-                  <p>September 2016 - Februari 2017</p>
+                  <p>September 2016 - February 2017</p>
                   <p>Trust International B.V.</p>
                 </div>
               </div>
@@ -225,7 +216,7 @@
                 </div>
                 <div class="col l8 m8 s8">
                   <span class="card-title black-text">Front-End Developer</span>
-                  <p>Juni 2016 - Heden</p>
+                  <p>Juni 2016 - Now</p>
                   <p>Pixl Perfect Webdevelopment</p>
                 </div>
               </div>
@@ -245,10 +236,10 @@
             <div class="mobile-divider"></div>
           </div>
           <div class="col l4 offset-l1 s12">
-            <div class="footer-title">Contactgegevens</div>
+            <div class="footer-title">Get in touch</div>
             <p>
-              <i class="fa fa-map-marker"></i> Ten Ankerweg 14, 4691GW Tholen
-              <br><i class="fa fa-phone"></i> 06 860 008 53
+              Feel free to contact me by phone, text and Whatsapp or send me an email. <br><br>
+              <i class="fa fa-phone"></i> 06 860 008 53
             </p>
           </div>
         </div>
@@ -257,6 +248,12 @@
         <div class="container"> Made with <i class="fa fa-coffee" style="margin-left: 8px;"></i> and <i class="fa fa-heart" style="margin-left: 8px;"></i></div>
       </div>
     </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="js/github-box.js"></script>
 
   </body>
 
