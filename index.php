@@ -48,7 +48,7 @@
       </nav>
 
       <div class="col l12 center">
-        <h3 class="parallax-name" style="font-size: 42px;">Marco van Poortvliet</h3>
+        <h3 class="parallax-name" style="font-size: 35px;">Marco van Poortvliet</h3>
         <div class="parallax-title">Software Developer &amp; Student Information Technology</div>
       </div>
       <div class="col l12 center parallax-offset">
@@ -61,17 +61,16 @@
 
     <div id="overmij" class="section scrollspy whitebox">
       <div class="container">
-        <div class="section-title center">About me</div>
         <div class="row">
           <div class="col l6 m6 s12">
-            <div class="subtitle">About Me</div>
+            <div class="subtitle center">About Me</div>
             <p>
             Hi there! Thanks for visiting my portfolio. My name is Marco van Poortvliet and I'm a Dutch computer enthousiast and Student Information Technology at Avans Hogeschool in Breda.
             I'm mostly active making websites and apps, but I'm always exploring new things. You can find most of my projects on this page and my <a href="https://github.com/marc0tjevp">GitHub</a>.
             </p>
           </div>
           <div class="col l6 m6 s12">
-            <div class="subtitle">Skills</div>
+            <div class="subtitle center">Skills</div>
             <div class="chip">HTML</div>
             <div class="chip">CSS</div>
             <div class="chip">Java</div>
@@ -130,7 +129,7 @@
             </div>
 
             <div class="row center">
-              <a class="btn grey darken-3" target="_blank" href="http://github.com/marc0tjevp?tab=repositories"><i class="fa fa-github"></i> More on GitHub</a>
+              <a class="btn grey darken-3 github-btn" target="_blank" href="http://github.com/marc0tjevp?tab=repositories"><i class="fa fa-github"></i> More on GitHub</a>
             </div>
 
           </div>
