@@ -1,20 +1,26 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
-    $(".button-collapse").sideNav({
-        closeOnClick: true
-    });
+  // Give body a class so the banner will zoom in.
+  window.onload = function() {
+    document.body.className += ' loaded'
+  };
 
-    $('.parallax').parallax();
+  // Side Navigation
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  });
 
-    $('.scrollspy').scrollSpy({
-        scrollOffset: 55
-    });
+  $('.scrollspy').scrollSpy({
+    scrollOffset: 55
+  });
 
-//    $(".parallax-container").css('min-height', window.innerHeight);
+  GHRepos.create('.projects a')
 
-    $('.modal').modal({
-        starting_top: '0%', // Starting top style attribute
-        ending_top: '0%' // Ending top style attribute
-    });
+  //    $(".parallax-container").css('min-height', window.innerHeight);
+
+  $('.modal').modal({
+    starting_top: '0%', // Starting top style attribute
+    ending_top: '0%' // Ending top style attribute
+  });
 
 });

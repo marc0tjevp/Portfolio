@@ -34,21 +34,21 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST' && (!empty($antiflood) || empty($_POST
   echo '<form method="post" action="' . $_SERVER['REQUEST_URI'] . '" >
 
     <div class="input-field">
-      <label class="white-text" for="naam">Naam</label>
+      <label class="white-text" for="naam">Name</label>
       <input type="text" class="white-text" id="naam" name="naam" value="' . (isset($_POST['naam']) ? htmlspecialchars($_POST['naam']) : '') . '" /><br />
     </div>
 
     <div class="input-field">
-      <label class="white-text" for="mail" data-error="Dit is geen geldig emailadres" for="mail">E-mailadres</label>
+      <label class="white-text" for="mail" data-error="Please enter a valid email" for="mail">E-mail</label>
       <input type="email" class="validate white-text" id="mail" name="mail" value="' . (isset($_POST['mail']) ? htmlspecialchars($_POST['mail']) : '') . '" /><br />
     </div>
 
     <div class="input-field">
-      <label class="white-text" for="bericht">Bericht</label>
+      <label class="white-text" for="bericht">Message</label>
       <textarea id="bericht" class="materialize-textarea white-text" name="bericht" rows="8">' . (isset($_POST['bericht']) ? htmlspecialchars($_POST['bericht']) : '') . '</textarea><br />
     </div>
 
-      <button class="btn waves-effect white z-depth-2 waves black-text" type="submit" name="Submit">Verzenden
+      <button class="btn waves-effect white z-depth-2 waves black-text" type="submit" name="Submit">Send
       </button>
 
   </form>';
