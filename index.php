@@ -115,13 +115,13 @@
                 <a href="//github.com/marc0tjevp/github-box-material">GitHub Box Material</a>
               </div>
               <div class="col l6 m6 s12">
-                <a href="//github.com/marc0tjevp/Bandplanner">Band Planner</a>
+                <a href="//github.com/marc0tjevp/Blue-Jeans">Blue Jeans</a>
               </div>
             </div>
 
             <div class="row">
               <div class="col l6 m6 s12">
-                <a href="//github.com/marc0tjevp/Animal-Kingdom">Animal Kingdom</a>
+                <a href="//github.com/marc0tjevp/Sprite-Maker-4">Sprite Maker 4</a>
               </div>
               <div class="col l6 m6 s12">
                 <a href="//github.com/marc0tjevp/BigNews-CMS">Big News CMS</a>
@@ -249,7 +249,7 @@
     </footer>
 
     <!-- Scripts -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/init.js"></script>
     <script type="text/javascript" src="js/github-box.js"></script>
