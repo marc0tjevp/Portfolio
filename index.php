@@ -21,14 +21,6 @@
 
   <body>
 
-    <ul class="side-nav" id="mobile-nav">
-      <li><a href="#overmij">About Me</a></li>
-      <li><a href="#projecten">Projects</a></li>
-      <li><a href="#ervaring">Experience</a></li>
-      <li><a href="http://blog.marcovp.nl">Blog</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-
     <!-- Banner & Menu -->
     <header class="banner">
   		<span class="background"></span>
@@ -37,16 +29,22 @@
           <div class="container">
             <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
             <ul class="hide-on-med-and-down right">
-              <li><a href="#overmij">About Me</a></li>
-              <li><a href="#projecten">Projects</a></li>
-              <li><a href="#ervaring">Experience</a></li>
+              <li><a href="#aboutme">About Me</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="http://blog.marcovp.nl">Blog</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-nav">
+              <li><a href="#aboutme">About Me</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#experience">Experience</a></li>
               <li><a href="http://blog.marcovp.nl">Blog</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
       </nav>
-
       <div class="col l12 center">
         <h3 class="parallax-name" style="font-size: 35px;">Marco van Poortvliet</h3>
         <div class="parallax-title">Software Developer &amp; Student Information Technology</div>
@@ -59,7 +57,8 @@
        </div>
   	</header>
 
-    <div id="overmij" class="section scrollspy whitebox">
+    <!-- About Me -->
+    <div id="aboutme" class="section scrollspy whitebox">
       <div class="container">
         <div class="row">
           <div class="col l6 m6 s12">
@@ -94,13 +93,12 @@
       </div>
     </div>
 
-    <div id="projecten" class="section scrollspy darkbox">
+    <!-- Projects -->
+    <div id="projects" class="section scrollspy darkbox">
       <div class="container">
         <div class="section-title center">Projects</div>
         <div class="container">
-
           <div class="projects">
-
             <div class="row">
               <div class="col l6 m6 s12">
                 <a href="//github.com/marc0tjevp/United-GTK">United GTK</a>
@@ -109,7 +107,6 @@
                 <a href="//github.com/marc0tjevp/Portfolio">Portfolio</a>
               </div>
             </div>
-
             <div class="row">
               <div class="col l6 m6 s12">
                 <a href="//github.com/marc0tjevp/github-box-material">GitHub Box Material</a>
@@ -118,7 +115,6 @@
                 <a href="//github.com/marc0tjevp/Blue-Jeans">Blue Jeans</a>
               </div>
             </div>
-
             <div class="row">
               <div class="col l6 m6 s12">
                 <a href="//github.com/marc0tjevp/Sprite-Maker-4">Sprite Maker 4</a>
@@ -127,18 +123,16 @@
                 <a href="//github.com/marc0tjevp/Error-Page-Raspberry">Error Page Raspberry</a>
               </div>
             </div>
-
             <div class="row center">
               <a class="btn grey darken-3 github-btn" target="_blank" href="http://github.com/marc0tjevp?tab=repositories"><i class="fa fa-github"></i> More on GitHub</a>
             </div>
-
           </div>
-
         </div>
       </div>
     </div>
 
-    <div id="ervaring" class="section scrollspy whitebox">
+    <!-- Experience -->
+    <div id="experience" class="section scrollspy whitebox">
       <div class="container">
         <div class="section-title center">Experience</div>
         <div class="row">
@@ -156,7 +150,6 @@
               </div>
             </div>
           </div>
-
           <div class="col s12 m12 l6">
             <div class="card-content">
               <div class="row">
@@ -171,9 +164,7 @@
               </div>
             </div>
           </div>
-
           <div class="col s12 m12 l6">
-
             <div class="card-content">
               <div class="row">
                 <div class="col l3 m4 s4">
@@ -186,9 +177,7 @@
                 </div>
               </div>
             </div>
-
           </div>
-
           <div class="col s12 m12 l6">
             <div class="card-content">
               <div class="row">
@@ -207,6 +196,7 @@
       </div>
     </div>
 
+    <!-- Footer -->
     <footer id="contact" class="scrollspy page-footer">
       <div class="container">
         <div class="row">
@@ -219,7 +209,7 @@
             <div class="footer-title">Get in touch</div>
             <p>
               Feel free to contact me by phone, text and Whatsapp or send me an email. <br><br>
-              <i class="fa fa-phone"></i> 06 860 008 53
+              <i class="fa fa-phone"></i> +316 860 008 53
             </p>
           </div>
         </div>

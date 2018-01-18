@@ -11,16 +11,9 @@ $(document).ready(function() {
   });
 
   $('.scrollspy').scrollSpy({
-    scrollOffset: 55
+    scrollOffset: 0
   });
 
   GHRepos.create('.projects a')
-
-  //    $(".parallax-container").css('min-height', window.innerHeight);
-
-  $('.modal').modal({
-    starting_top: '0%', // Starting top style attribute
-    ending_top: '0%' // Ending top style attribute
-  });
 
 });
