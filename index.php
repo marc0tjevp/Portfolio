@@ -124,7 +124,7 @@
                 <a href="//github.com/marc0tjevp/Sprite-Maker-4">Sprite Maker 4</a>
               </div>
               <div class="col l6 m6 s12">
-                <a href="//github.com/marc0tjevp/BigNews-CMS">Big News CMS</a>
+                <a href="//github.com/marc0tjevp/Error-Page-Raspberry">Error Page Raspberry</a>
               </div>
             </div>
 
@@ -141,9 +141,7 @@
     <div id="ervaring" class="section scrollspy whitebox">
       <div class="container">
         <div class="section-title center">Experience</div>
-
         <div class="row">
-
           <div class="col s12 m12 l6">
             <div class="card-content">
               <div class="row">
@@ -205,23 +203,6 @@
               </div>
             </div>
           </div>
-
-          <div class="col s12 m12 l6">
-
-            <div class="card-content">
-              <div class="row">
-                <div class="col l3 m4 s4">
-                  <img src="img/pixl2.png" alt="Pixl Perfect" class="responsive-img">
-                </div>
-                <div class="col l8 m8 s8">
-                  <span class="card-title black-text">Front-End Developer</span>
-                  <p>Juni 2016 - Now</p>
-                  <p>Pixl Perfect Webdevelopment</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
