@@ -15,6 +15,7 @@ body {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  background-color: #fefefe;
 }
 
 .content-section-heading h2 {
@@ -90,12 +91,12 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/code.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/code1.gif");
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: 2px 1px #000000;
-
 }
 
 .masthead h1 {
@@ -330,4 +331,18 @@ a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.skill-icons {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.skill-icons i {
+  margin-right: 10px;
+  color: #1D809F;
+}
+
+#skills .col-md-6 {
+  padding: 40px;
 }
