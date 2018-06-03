@@ -12,6 +12,10 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+.btn i {
+  margin-right: 4px;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -260,20 +264,37 @@ footer.footer {
   padding-bottom: 5rem;
 }
 
-footer.footer .social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
-  transition: background-color 0.15s ease-in-out;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+footer ul {
+  list-style: none;
+  padding-left: 0px;
 }
 
-footer.footer .social-link:hover {
-  background-color: #155d74;
-  text-decoration: none;
+footer ul i {
+  margin-right: 4px;
+}
+
+footer ul a,
+a:hover,
+a:focus,
+a:active {
+  color: #fff;
+}
+
+.subfooter {
+  color: #fff;
+  height: auto;
+  padding: 20px;
+  background-color: #006A8C;
+}
+
+.subfooter p {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.subfooter p i {
+  margin-right: 4px;
+  margin-left: 4px;
 }
 
 a {
@@ -323,6 +344,15 @@ a:active {
 
 .bg-primary {
   background-color: #1D809F !important;
+  color: #fff;
+}
+
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
+  background-color: #0062cc !important;
+  color: #fff !important;
 }
 
 .text-primary {
