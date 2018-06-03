@@ -46,6 +46,10 @@ h6 {
 
 /* Map */
 
+#experience .card {
+  margin-bottom: 10px;
+}
+
 .map {
   height: 30rem;
 }

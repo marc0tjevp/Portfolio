@@ -20,7 +20,7 @@
     // unique ID for jsonp callbacks
     var cid = 0,
 
-        template = '<div class="card ' + textcolor + ' ' + style + ' github-box">' +
+        template = '<div class="card align-items-stretch ' + textcolor + ' ' + style + ' github-box">' +
         '    <div class="card-header">' +
         '      <a class="title ' + titlecolor + '" href="{{html_url}}">{{name}}</a>' +
         '      <div class="float-right">' +
