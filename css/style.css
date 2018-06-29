@@ -380,3 +380,15 @@ button.bg-primary:hover {
 #skills .col-md-6 {
   padding: 40px;
 }
+
+/* Cards */
+.card {
+  min-width: 100% !important;
+}
+
+.card-img-bottom {
+  color: #fff !important;
+  height: 100% !important;
+  width: 100% !important;
+  background-size: cover !important;
+}
