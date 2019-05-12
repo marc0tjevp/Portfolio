@@ -112,6 +112,14 @@ h6 {
 }
 
 .masthead {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/background.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh !important;
+}
+
+.masthead .masthead-inner {
   color: #fff;
   min-height: 30rem;
   position: relative;
@@ -120,16 +128,10 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/code1.gif");
-  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%); */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-shadow: 2px 1px #000000;
 }
 
 .masthead h1 {
-  font-size: 3.5rem;
   margin: 0;
   padding: 0;
 }
@@ -191,7 +193,7 @@ h6 {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #0f6f64;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -275,7 +277,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #0f6f64;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -309,7 +311,7 @@ a:active {
   color: #fff;
   height: auto;
   padding: 20px;
-  background-color: #006A8C;
+  background-color: #085F55;
 }
 
 .subfooter p {
@@ -323,7 +325,7 @@ a:active {
 }
 
 a {
-  color: #1D809F;
+  color: #0f6f64;
 }
 
 a:hover,
@@ -333,8 +335,8 @@ a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #0f6f64 !important;
+  border-color: #0f6f64 !important;
   color: #fff !important;
 }
 
@@ -368,7 +370,8 @@ a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  /* background-color: #0f6f64 !important; */
+  background-color: #0f6f64 !important;
   color: #fff;
 }
 
@@ -381,7 +384,7 @@ button.bg-primary:hover {
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #0f6f64 !important;
 }
 
 .text-secondary {
@@ -395,7 +398,7 @@ button.bg-primary:hover {
 
 .skill-icons i {
   margin-right: 10px;
-  color: #1D809F;
+  color: #0f6f64;
 }
 
 #skills .col-md-6 {
