@@ -1,9 +1,15 @@
 <template>
-  <div class="home"></div>
+  <div id="home">
+    <Hero />
+  </div>
 </template>
 
 <script>
+import Hero from "../components/Hero.vue";
 export default {
-  name: "home"
+  name: "home",
+  components: {
+    Hero
+  }
 };
 </script>
