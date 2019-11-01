@@ -1,17 +1,35 @@
 <template>
   <div id="hero">
-    <b-jumbotron fluid header="Hello World!" lead="Ma name Jeff">
+    <b-jumbotron fluid>
       <b-row>
-        <b-col> </b-col>
+        <b-col cols="4">
+          <Gravatar class="shadow-lg" />
+        </b-col>
+        <b-col cols="8">
+          <h1>Marco van Poortvliet</h1>
+          <p>Software Developer & Student Information Technology</p>
+        </b-col>
       </b-row>
     </b-jumbotron>
   </div>
 </template>
 
+<script>
+import Gravatar from "./Gravatar.vue";
+
+export default {
+  name: "Hero",
+  components: {
+    Gravatar
+  }
+};
+</script>
+
 <style scoped>
-/* Correct hacky navbar */
 .jumbotron {
+  /* Correct hacky navbar */
   padding-top: 100px !important;
+  padding-bottom: 100px;
 }
 .jumbotron {
   color: white;
@@ -20,7 +38,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   margin: 0;
 }
 </style>
