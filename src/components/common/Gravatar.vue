@@ -3,7 +3,11 @@
     updating my avatar on a lot of services that I use at once.
 -->
 <template>
-  <b-img fluid :src="getImage('marcovanpoortvliet@protonmail.com', 1024)" />
+  <b-img
+    fluid
+    class="rounded-circle"
+    :src="getImage('marcovanpoortvliet@protonmail.com', 1024)"
+  />
 </template>
 
 <script>

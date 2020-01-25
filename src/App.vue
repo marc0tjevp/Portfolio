@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Navigation from "./components/Navigation.vue";
-import Footer from "./components/Footer.vue";
+import Navigation from "./components/common/Navigation.vue";
+import Footer from "./components/common/Footer.vue";
 
 export default {
   name: "app",
@@ -21,13 +21,13 @@ export default {
 
 <style lang="scss">
 .offwhite {
-  background-color: #f8f9fa;
+  background-color: #f8f9fa !important;
 }
 .lightgreen {
-  background-color: #0f6f64;
+  background-color: #0f6f64 !important;
 }
 .green {
-  background-color: #085f55;
+  background-color: #085f55 !important;
 }
 .component {
   padding: 50px 0 50px;

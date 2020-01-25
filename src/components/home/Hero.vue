@@ -7,7 +7,8 @@
         </b-col>
         <b-col cols="8">
           <h1>Marco van Poortvliet</h1>
-          <p>Software Developer & Student Information Technology</p>
+          <p>Software Developer &amp; Student Information Technology</p>
+          <Social />
         </b-col>
       </b-row>
     </b-jumbotron>
@@ -15,12 +16,14 @@
 </template>
 
 <script>
-import Gravatar from "./Gravatar.vue";
+import Gravatar from "../common/Gravatar.vue";
+import Social from "../common/Social.vue";
 
 export default {
   name: "Hero",
   components: {
-    Gravatar
+    Gravatar,
+    Social
   }
 };
 </script>
