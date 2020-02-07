@@ -4,13 +4,12 @@
       <b-container>
         <b-row>
           <b-col>
-            bla
+            <h4>Contact</h4>
+            dont talk to me pls
           </b-col>
           <b-col>
-            bla
-          </b-col>
-          <b-col>
-            bla
+            <h4>Online Profiles</h4>
+            <Social iconSize="1" />
           </b-col>
         </b-row>
       </b-container>
@@ -18,12 +17,25 @@
     <div class="subfooter green text-center">
       <b-row>
         <b-col>
-          <p>Made with "Coffee" and "Love"</p>
+          <p>
+            Made with <i class="fa fa-coffee" /> and <i class="fa fa-heart" />
+          </p>
         </b-col>
       </b-row>
     </div>
   </div>
 </template>
+
+<script>
+import Social from "../common/Social.vue";
+
+export default {
+  name: "Footer",
+  components: {
+    Social
+  }
+};
+</script>
 
 <style lang="scss" scoped>
 * {
