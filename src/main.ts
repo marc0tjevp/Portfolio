@@ -10,7 +10,7 @@ const GitHubAPI = require("vue-github-api");
 
 Vue.use(BootstrapVue);
 Vue.use(VueResource);
-Vue.use(GitHubAPI, { token: "94f80b8d0a5a9ac8ab6865064e84bc0610786c61" });
+Vue.use(GitHubAPI, { token: "" });
 
 Vue.config.productionTip = false;
 
