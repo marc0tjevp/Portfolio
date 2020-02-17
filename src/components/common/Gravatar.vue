@@ -5,8 +5,8 @@
 <template>
   <b-img
     fluid
-    class="rounded-circle"
-    :src="getImage('marcovanpoortvliet@protonmail.com', 1024)"
+    class="rounded-circle Gravatar--img"
+    :src="getImage(this.email, 1024)"
   />
 </template>
 
@@ -18,13 +18,20 @@ export default {
   name: "Gravatar",
   data() {
     return {
-      url: "none"
+      url: "none",
+      email: "marcovanpoortvliet@protonmail.com"
     };
   },
   methods: {
     getImage(email, size) {
-      return "http://www.gravatar.com/avatar/" + MD5(email) + ".jpg?s=" + size;
+      return "https://www.gravatar.com/avatar/" + MD5(email) + ".jpg?s=" + size;
     }
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.Gravatar--img {
+  max-height: 200px !important;
+}
+</style>

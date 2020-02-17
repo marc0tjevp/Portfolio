@@ -19,5 +19,7 @@
 .navbar {
   /* Oof: Make sure the jumbotron is under the navbar */
   margin-bottom: -56px;
+  /* We don't need it, yet */
+  display: none;
 }
 </style>

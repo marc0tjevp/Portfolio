@@ -1,9 +1,7 @@
 <template>
   <div id="home">
     <Hero />
-    <About />
     <Projects />
-    <Experience />
   </div>
 </template>
 
@@ -17,9 +15,7 @@ export default {
   name: "home",
   components: {
     Hero,
-    About,
-    Projects,
-    Experience
+    Projects
   }
 };
 </script>

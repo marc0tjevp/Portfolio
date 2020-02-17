@@ -24,10 +24,10 @@ export default {
   background-color: #f8f9fa !important;
 }
 .lightgreen {
-  background-color: #0f6f64 !important;
+  background-color: #0e574f !important;
 }
 .green {
-  background-color: #085f55 !important;
+  background-color: darken(#0e574f, 2%) !important;
 }
 .component {
   padding: 50px 0 50px;

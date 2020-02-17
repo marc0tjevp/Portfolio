@@ -4,12 +4,13 @@
       <b-container>
         <b-row>
           <b-col>
-            <h4>Contact</h4>
-            dont talk to me pls
+            <ul>
+              <li><i class="fa fa-phone-square" /> {{ contact.phone }}</li>
+              <li><i class="fa fa-envelope-square" /> {{ contact.email }}</li>
+            </ul>
           </b-col>
           <b-col>
-            <h4>Online Profiles</h4>
-            <Social iconSize="1" />
+            <Social iconSize="2" />
           </b-col>
         </b-row>
       </b-container>
@@ -33,6 +34,16 @@ export default {
   name: "Footer",
   components: {
     Social
+  },
+  data() {
+    return {
+      contact: {
+        msg:
+          "Call me or shoot me a message if you want to chat or if you have a question",
+        phone: "+31 6 8600 0853",
+        email: "marcovanpoortvliet@pm.me"
+      }
+    };
   }
 };
 </script>
@@ -43,11 +54,18 @@ export default {
 }
 .footer {
   padding: 50px;
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 }
 .subfooter {
   padding: 20px;
   p {
     margin: 0;
+  }
+  i {
+    margin: 5px;
   }
 }
 </style>

@@ -18,31 +18,36 @@ import MD5 from "md5";
 
 export default {
   name: "Social",
-  props: ["iconSize"],
+  props: {
+    iconSize: {
+      type: String,
+      default: "3"
+    }
+  },
   data() {
     return {
       socials: [
         {
           name: "linkedin",
-          icon: `fa fa-${iconSize}x fa-linkedin-square`,
+          icon: `fa fa-${this.iconSize}x fa-linkedin-square`,
           url: "https://www.linkedin.com/in/marc0tjevp",
           target: "_blank"
         },
         {
           name: "email",
-          icon: "fa fa-3x fa-envelope-square",
+          icon: `fa fa-${this.iconSize}x fa-envelope-square`,
           url: "mailto:marcovanpoortvliet@pm.me",
           target: "_blank"
         },
         {
           name: "github",
-          icon: "fa fa-3x fa-github-square",
+          icon: `fa fa-${this.iconSize}x fa-github-square`,
           url: "https://github.com/marc0tjevp",
           target: "_blank"
         },
         {
           name: "gitlab",
-          icon: "fa fa-3x fa-gitlab",
+          icon: `fa fa-${this.iconSize}x fa-gitlab`,
           url: "https://gitlab.com/marc0tjevp",
           target: "_blank"
         }
