@@ -11,27 +11,9 @@
           </b-button>
         </b-col>
       </b-row>
-      <b-row>
-        <b-col
-          cols="6"
-          v-for="repo in projects.repositories"
-          v-bind:key="repo.id"
-        >
-          <b-card
-            class="w-100 h-100 shadow-sm"
-            :title="repo.name"
-            :sub-title="repo.description"
-            bg-variant="dark"
-            border-variant="dark"
-            text-variant="white"
-          >
-            <b-link v-if="repo.html_url" :href="repo.html_url" class="card-link"
-              >View on Github</b-link
-            >
-            <b-link v-if="repo.homepage" :href="repo.homepage" class="card-link"
-              >View Website</b-link
-            >
-          </b-card>
+      <b-row v-for="(chunk, index) in repoChunks" v-bind:key="index">
+        <b-col cols="6" v-for="(repo, index) in chunk" v-bind:key="index">
+          <GithubProject class="h-100" :repo="repo" />
         </b-col>
       </b-row>
     </b-container>
@@ -39,8 +21,14 @@
 </template>
 
 <script>
+import GithubProject from "../common/GithubProject.vue";
+import _ from "lodash";
+
 export default {
-  name: "Footer",
+  name: "Projects",
+  components: {
+    GithubProject
+  },
   data() {
     return {
       projects: {}
@@ -49,9 +37,18 @@ export default {
   mounted: function() {
     this.GitHubAPI.get(
       "/users/marc0tjevp/repos",
-      { per_page: 10, page: 1, sort: "date-asc", forks: false },
+      { per_page: 10, page: 1, sort: "updated", forks: false },
       [this.projects, "repositories"]
     );
+  },
+  computed: {
+    repoChunks() {
+      try {
+        return _.chunk(Object.values(this.projects.repositories), 2);
+      } catch {
+        return [];
+      }
+    }
   }
 };
 </script>
