@@ -3,13 +3,13 @@
     <div class="footer lightgreen">
       <b-container>
         <b-row>
-          <b-col>
+          <b-col cols="12" sm="12" md="12" lg="6" xl="6">
             <ul>
               <li><i class="fa fa-phone-square" /> {{ contact.phone }}</li>
               <li><i class="fa fa-envelope-square" /> {{ contact.email }}</li>
             </ul>
           </b-col>
-          <b-col>
+          <b-col cols="12" sm="12" md="12" lg="6" xl="6">
             <Social iconSize="2" />
           </b-col>
         </b-row>

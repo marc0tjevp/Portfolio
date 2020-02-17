@@ -12,8 +12,16 @@
         </b-col>
       </b-row>
       <b-row v-for="(chunk, index) in repoChunks" v-bind:key="index">
-        <b-col cols="6" v-for="(repo, index) in chunk" v-bind:key="index">
-          <GithubProject class="h-100" :repo="repo" />
+        <b-col
+          cols="12"
+          sm="12"
+          md="12"
+          lg="6"
+          xl="6"
+          v-for="(repo, index) in chunk"
+          v-bind:key="index"
+        >
+          <GithubProject class="test h-100" :repo="repo" />
         </b-col>
       </b-row>
     </b-container>
@@ -61,7 +69,7 @@ export default {
   background: darken($dark, 5%);
   color: $white;
 }
-.col-6 {
+[class*="col-"] {
   margin-bottom: 20px !important;
 }
 </style>
