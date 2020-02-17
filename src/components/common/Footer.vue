@@ -30,6 +30,8 @@
 <script>
 import Social from "../common/Social.vue";
 
+import { DATA_ME_CONTACT } from "../../data/me.data.ts";
+
 export default {
   name: "Footer",
   components: {
@@ -40,8 +42,8 @@ export default {
       contact: {
         msg:
           "Call me or shoot me a message if you want to chat or if you have a question",
-        phone: "+31 6 8600 0853",
-        email: "marcovanpoortvliet@pm.me"
+        phone: DATA_ME_CONTACT.phone,
+        email: DATA_ME_CONTACT.email
       }
     };
   }

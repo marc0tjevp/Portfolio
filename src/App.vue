@@ -19,6 +19,7 @@ export default {
 };
 </script>
 
+// TODO: vars
 <style lang="scss">
 .offwhite {
   background-color: #f8f9fa !important;

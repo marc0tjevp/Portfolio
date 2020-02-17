@@ -6,8 +6,8 @@
           <Gravatar class="shadow-lg" />
         </b-col>
         <b-col cols="8">
-          <h1>Marco van Poortvliet</h1>
-          <p>Software Developer &amp; Student Information Technology</p>
+          <h1>{{ `${this.me.firstname} ${this.me.surname}` }}</h1>
+          <p>{{ this.me.title }}</p>
           <Social iconSize="3" />
         </b-col>
       </b-row>
@@ -19,11 +19,22 @@
 import Gravatar from "../common/Gravatar.vue";
 import Social from "../common/Social.vue";
 
+import { DATA_ME } from "../../data/me.data.ts";
+
 export default {
   name: "Hero",
   components: {
     Gravatar,
     Social
+  },
+  data() {
+    return {
+      me: {
+        firstname: DATA_ME.firstname,
+        surname: DATA_ME.surname,
+        title: DATA_ME.title
+      }
+    };
   }
 };
 </script>

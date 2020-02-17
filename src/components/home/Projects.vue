@@ -24,6 +24,8 @@
 import GithubProject from "../common/GithubProject.vue";
 import _ from "lodash";
 
+import { DATA_PROJECT_GITHUB_USERNAME } from "../../data/projects.data.ts";
+
 export default {
   name: "Projects",
   components: {
@@ -36,7 +38,7 @@ export default {
   },
   mounted: function() {
     this.GitHubAPI.get(
-      "/users/marc0tjevp/repos",
+      `/users/${DATA_PROJECT_GITHUB_USERNAME}/repos`,
       { per_page: 10, page: 1, sort: "updated", forks: false },
       [this.projects, "repositories"]
     );

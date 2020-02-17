@@ -14,12 +14,14 @@
 import axios from "axios";
 import MD5 from "md5";
 
+import { DATA_ME } from "../../data/me.data.ts";
+
 export default {
   name: "Gravatar",
   data() {
     return {
       url: "none",
-      email: "marcovanpoortvliet@protonmail.com"
+      email: DATA_ME.avatar
     };
   },
   methods: {

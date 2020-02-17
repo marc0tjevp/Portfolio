@@ -4,7 +4,7 @@
       <div v-for="(item, index) in socials" :key="index">
         <b-col>
           <a :target="item.target" :href="item.url">
-            <i :class="item.icon"></i>
+            <i :class="`fa fa-${iconSize}x ${item.icon}`"></i>
           </a>
         </b-col>
       </div>
@@ -16,6 +16,8 @@
 import axios from "axios";
 import MD5 from "md5";
 
+import { DATA_ME_SOCIAL } from "../../data/me.data.ts";
+
 export default {
   name: "Social",
   props: {
@@ -26,32 +28,7 @@ export default {
   },
   data() {
     return {
-      socials: [
-        {
-          name: "linkedin",
-          icon: `fa fa-${this.iconSize}x fa-linkedin-square`,
-          url: "https://www.linkedin.com/in/marc0tjevp",
-          target: "_blank"
-        },
-        {
-          name: "email",
-          icon: `fa fa-${this.iconSize}x fa-envelope-square`,
-          url: "mailto:marcovanpoortvliet@pm.me",
-          target: "_blank"
-        },
-        {
-          name: "github",
-          icon: `fa fa-${this.iconSize}x fa-github-square`,
-          url: "https://github.com/marc0tjevp",
-          target: "_blank"
-        },
-        {
-          name: "gitlab",
-          icon: `fa fa-${this.iconSize}x fa-gitlab`,
-          url: "https://gitlab.com/marc0tjevp",
-          target: "_blank"
-        }
-      ]
+      socials: DATA_ME_SOCIAL
     };
   }
 };
