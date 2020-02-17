@@ -6,7 +6,7 @@
           <h4>Projects</h4>
         </b-col>
         <b-col class="text-right" cols="6">
-          <b-button class="lightgreen">
+          <b-button :href="this.github" target="_blank" class="lightgreen">
             <i class="fa fa-github" /> More projects
           </b-button>
         </b-col>
@@ -41,6 +41,7 @@ export default {
   },
   data() {
     return {
+      github: `https://github.com/${DATA_PROJECT_GITHUB_USERNAME}`,
       projects: {}
     };
   },
