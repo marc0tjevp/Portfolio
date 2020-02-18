@@ -11,6 +11,11 @@
           </b-button>
         </b-col>
       </b-row>
+      <template v-if="downloading">
+        <div class="d-flex justify-content-center">
+          <b-spinner class="mb-12" label="Loading..."></b-spinner>
+        </div>
+      </template>
       <b-row v-for="(chunk, index) in repoChunks" v-bind:key="index">
         <b-col
           cols="12"
@@ -29,10 +34,15 @@
 </template>
 
 <script>
-import GithubProject from "../common/GithubProject.vue";
+import Vue from "vue";
+import Vuex from "vuex";
 import _ from "lodash";
 
+import GithubProject from "../common/GithubProject.vue";
 import { DATA_PROJECT_GITHUB_USERNAME } from "../../data/projects.data.ts";
+
+Vue.use(Vuex);
+const store = new Vuex.Store({});
 
 export default {
   name: "Projects",
@@ -46,6 +56,7 @@ export default {
     };
   },
   mounted: function() {
+    this.GitHubAPI.registerStore(store);
     this.GitHubAPI.get(
       `/users/${DATA_PROJECT_GITHUB_USERNAME}/repos`,
       { per_page: 10, page: 1, sort: "updated", forks: false },
@@ -58,6 +69,13 @@ export default {
         return _.chunk(Object.values(this.projects.repositories), 2);
       } catch {
         return [];
+      }
+    },
+    downloading: function() {
+      if (typeof store.state.GitHubAPI !== "undefined") {
+        return store.state.GitHubAPI.downloading;
+      } else {
+        return false;
       }
     }
   }
@@ -72,5 +90,10 @@ export default {
 }
 [class*="col-"] {
   margin-bottom: 20px !important;
+}
+.spinner-border {
+  margin-top: 20px;
+  height: 4rem;
+  width: 4rem;
 }
 </style>
