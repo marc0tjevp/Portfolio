@@ -31,6 +31,7 @@ export default {
   background-color: darken(#0e574f, 2%) !important;
 }
 .component {
-  padding: 50px 0 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 </style>

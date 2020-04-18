@@ -1,0 +1,52 @@
+<template>
+  <div id="githubproject">
+    <b-card
+      :title="project.name"
+      :img-src="project.image"
+      class="shadow-sm h-100"
+      bg-variant="dark"
+      border-variant="dark"
+      text-variant="white"
+      overlay
+      v-on:click="handleProject(project.name)"
+    >
+    </b-card>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "GithubProject",
+  props: {
+    project: {
+      type: Object
+    }
+  },
+  methods: {
+    handleProject(name) {
+      this.$router.push({ name: "project", params: { name: name } });
+    }
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+.card {
+  max-height: 200px;
+}
+.card-img-overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+}
+.card-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+a {
+  color: lighten(#0d4e47, 15%) !important;
+}
+a:hover {
+  color: lighten(#0d4e47, 10%) !important;
+}
+</style>
