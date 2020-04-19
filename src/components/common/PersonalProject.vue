@@ -33,6 +33,12 @@ export default {
 <style lang="scss" scoped>
 .card {
   max-height: 200px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.card:hover {
+  transform: scale(1.025);
+  transition: 0.25s ease;
 }
 .card-img-overlay {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
