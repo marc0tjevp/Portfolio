@@ -3,11 +3,7 @@
     updating my avatar on a lot of services that I use at once.
 -->
 <template>
-  <b-img
-    fluid
-    class="rounded-circle Gravatar--img"
-    :src="getImage(this.email, 1024)"
-  />
+  <b-img fluid class="Gravatar--img" :src="getImage(this.email, 1024)" />
 </template>
 
 <script>
@@ -35,5 +31,6 @@ export default {
 <style lang="scss" scoped>
 .Gravatar--img {
   max-height: 200px !important;
+  margin-bottom: 20px;
 }
 </style>

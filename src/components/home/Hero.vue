@@ -1,11 +1,11 @@
 <template>
   <div id="hero">
-    <b-jumbotron fluid class="shadow-lg">
-      <b-row>
-        <b-col cols="4">
+    <b-jumbotron fluid>
+      <b-row class="text-center">
+        <b-col cols="12">
           <Gravatar class="shadow-lg" />
         </b-col>
-        <b-col cols="8">
+        <b-col cols="12">
           <h1>{{ `${this.me.firstname} ${this.me.surname}` }}</h1>
           <p>{{ this.me.title }}</p>
           <Social iconSize="3" />
@@ -41,11 +41,8 @@ export default {
 
 <style lang="scss" scoped>
 .jumbotron {
-  /* Correct hacky navbar */
-  padding-top: 100px !important;
-  padding-bottom: 100px;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
     url("https://marcovp.nl/img/background.gif");
   background-position: center;
   background-repeat: no-repeat;

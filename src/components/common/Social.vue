@@ -1,13 +1,13 @@
 <template>
   <div class="social">
     <div class="row">
-      <div v-for="(item, index) in socials" :key="index">
-        <b-col>
+      <b-col>
+        <div class="icon-wrapper" v-for="(item, index) in socials" :key="index">
           <a :target="item.target" :href="item.url">
             <i :class="`fa fa-${iconSize}x ${item.icon}`"></i>
           </a>
-        </b-col>
-      </div>
+        </div>
+      </b-col>
     </div>
   </div>
 </template>
@@ -35,7 +35,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.icon-wrapper {
+  display: inline-block;
+}
 a .fa {
   color: #fff;
+}
+.icon-wrapper:not(:last-child) {
+  margin-right: 25px;
 }
 </style>
