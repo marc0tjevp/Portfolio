@@ -1,4 +1,4 @@
-<template>
+<template v-if="projects.length > 0">
   <div id="experience" class="component">
     <b-container>
       <b-row>
@@ -6,17 +6,22 @@
           <h4>Showcase</h4>
         </b-col>
         <b-col class="text-right" cols="6">
-          <b-button href="google.com" target="_blank" class="lightgreen">
+          <b-button
+            v-on:click="handleButtonClick"
+            :disabled="slicer >= projects.length"
+            target="_blank"
+            class="lightgreen"
+          >
             <i class="fa fa-ellipsis-h" />
           </b-button>
         </b-col>
       </b-row>
       <b-row>
         <b-col
-          v-for="(project, index) in projects"
+          v-for="(project, index) in projects.slice(0, slicer)"
           :key="index"
-          cols="12"
-          sm="12"
+          cols="6"
+          sm="6"
           md="6"
           lg="3"
           xl="3"
@@ -36,11 +41,17 @@ export default {
   name: "Showcase",
   data() {
     return {
-      projects: DATA_PROJECT_SHOWCASE
+      projects: DATA_PROJECT_SHOWCASE,
+      slicer: 4
     };
   },
   components: {
     PersonalProject
+  },
+  methods: {
+    handleButtonClick() {
+      this.slicer += 4;
+    }
   }
 };
 </script>

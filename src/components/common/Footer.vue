@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="footer">
     <div class="footer lightgreen">
       <b-container>
         <b-row>
@@ -53,6 +53,9 @@ export default {
 <style lang="scss" scoped>
 * {
   color: white;
+}
+#footer {
+  height: 200px;
 }
 .footer {
   padding: 50px;
