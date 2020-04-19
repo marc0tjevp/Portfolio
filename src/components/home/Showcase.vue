@@ -1,5 +1,5 @@
-<template v-if="projects.length > 0">
-  <div id="experience" class="component">
+<template>
+  <div v-if="projects.length > 0" id="experience" class="component">
     <b-container>
       <b-row>
         <b-col cols="6">
@@ -8,6 +8,7 @@
         <b-col class="text-right" cols="6">
           <b-button
             v-on:click="handleButtonClick"
+            v-if="projects.length > 4"
             :disabled="slicer >= projects.length"
             target="_blank"
             class="lightgreen"
