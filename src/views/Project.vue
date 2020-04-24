@@ -28,6 +28,13 @@
         <b-col cols="12">
           <h4>{{ section.title }}</h4>
           <p>{{ section._text }}</p>
+          <b-img
+            thumbnail
+            fluid
+            class="shadow"
+            v-if="section.image"
+            :src="section.image"
+          />
         </b-col>
       </b-row>
     </b-container>
@@ -93,5 +100,8 @@ export default {
   margin-right: 5px;
   padding: 5px;
   font-size: 90%;
+}
+img {
+  // max-width: 600px !important;
 }
 </style>
