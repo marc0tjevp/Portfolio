@@ -7,8 +7,8 @@ services:
     expose:
       - 80
     environment:
-      VIRTUAL_HOST: n3rd.coffee
-      LETSENCRYPT_HOST: n3rd.coffee
+      VIRTUAL_HOST: marcovp.nl
+      LETSENCRYPT_HOST: marcovp.nl
       LETSENCRYPT_EMAIL: marc0tjevp@gmail.com
 
 networks:
