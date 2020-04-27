@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  example-app:
+    image: example/example-app
+    expose:
+      - 80
+    environment:
+      VIRTUAL_HOST: n3rd.coffee
+      LETSENCRYPT_HOST: n3rd.coffee
+      LETSENCRYPT_EMAIL: marc0tjevp@gmail.com
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
