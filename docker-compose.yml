@@ -2,6 +2,7 @@ version: "3"
 
 services:
   portfolio:
+    container_name: marc0tjevp/portfolio
     build: .
     # image: marc0tjevp/portfolio
     expose:
