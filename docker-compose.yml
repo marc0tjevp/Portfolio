@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  example-app:
-    image: example/example-app
+  portfolio:
+    image: marc0tjevp/portfolio
     expose:
       - 80
     environment:
