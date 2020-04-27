@@ -2,7 +2,8 @@ version: "3"
 
 services:
   portfolio:
-    image: marc0tjevp/portfolio
+    build: .
+    # image: marc0tjevp/portfolio
     expose:
       - 80
     environment:
