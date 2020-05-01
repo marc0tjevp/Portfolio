@@ -13,25 +13,29 @@ export const DATA_ME_CONTACT = {
 export const DATA_ME_SOCIAL = [
   {
     name: "linkedin",
-    icon: `fa-linkedin-square`,
+    prefix: "fab",
+    icon: `linkedin`,
     url: "https://www.linkedin.com/in/marc0tjevp",
     target: "_blank"
   },
   {
     name: "email",
-    icon: `fa-envelope-square`,
+    prefix: "fas",
+    icon: `envelope-square`,
     url: "mailto:marcovanpoortvliet@pm.me",
     target: "_blank"
   },
   {
     name: "github",
-    icon: `fa-github-square`,
+    prefix: "fab",
+    icon: `github-square`,
     url: "https://github.com/marc0tjevp",
     target: "_blank"
   },
   {
     name: "gitlab",
-    icon: `fa-gitlab`,
+    prefix: "fab",
+    icon: `gitlab`,
     url: "https://gitlab.com/marc0tjevp",
     target: "_blank"
   }

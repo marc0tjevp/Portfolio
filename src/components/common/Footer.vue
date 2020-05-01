@@ -5,8 +5,14 @@
         <b-row>
           <b-col cols="12" sm="12" md="6" lg="6" xl="6">
             <ul>
-              <li><i class="fa fa-phone-square" /> {{ contact.phone }}</li>
-              <li><i class="fa fa-envelope-square" /> {{ contact.email }}</li>
+              <li>
+                <font-awesome-icon class="icon" icon="phone-square" />
+                {{ contact.phone }}
+              </li>
+              <li>
+                <font-awesome-icon class="icon" icon="envelope-square" />
+                {{ contact.email }}
+              </li>
             </ul>
           </b-col>
           <b-col cols="12" sm="12" md="6" lg="6" xl="6">
@@ -19,7 +25,8 @@
       <b-row>
         <b-col>
           <p>
-            Made with <i class="fa fa-coffee" /> and <i class="fa fa-heart" />
+            Made with <font-awesome-icon class="icon" icon="coffee" /> and
+            <font-awesome-icon class="icon" icon="heart" />
           </p>
         </b-col>
       </b-row>
@@ -69,8 +76,8 @@ export default {
   p {
     margin: 0;
   }
-  i {
-    margin: 5px;
+  .icon {
+    margin: 0 5px 0 5px;
   }
 }
 </style>

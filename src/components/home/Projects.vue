@@ -7,7 +7,7 @@
         </b-col>
         <b-col class="text-right" cols="6">
           <b-button :href="this.github" target="_blank" class="lightgreen">
-            <i class="fa fa-github" />
+            <font-awesome-icon :icon="['fab', 'github']" />
           </b-button>
         </b-col>
       </b-row>

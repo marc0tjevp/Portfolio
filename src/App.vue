@@ -23,10 +23,12 @@ export default {
 <style lang="scss">
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+body {
+  background: darken($dark, 5%) !important;
+}
 .content {
   min-height: calc(100vh - 230px);
 }
-
 .offwhite {
   background-color: #f8f9fa !important;
 }

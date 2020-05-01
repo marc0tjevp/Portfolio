@@ -4,7 +4,10 @@
       <b-col>
         <div class="icon-wrapper" v-for="(item, index) in socials" :key="index">
           <a :target="item.target" :href="item.url">
-            <i :class="`fa fa-${iconSize}x ${item.icon}`"></i>
+            <font-awesome-icon
+              :class="`fa fa-${iconSize}x`"
+              :icon="[item.prefix, item.icon]"
+            />
           </a>
         </div>
       </b-col>
