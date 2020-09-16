@@ -11,6 +11,14 @@
           <Social iconSize="3" />
         </b-col>
       </b-row>
+      <span class="credits">
+        Photo by
+        <a href="https://unsplash.com/@veeterzy">veeterzy</a>
+        on
+        <a href="https://unsplash.com/collections/403069/rain">
+          Unsplash
+        </a>
+      </span>
     </b-jumbotron>
   </div>
 </template>
@@ -43,10 +51,13 @@ export default {
 .jumbotron {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("../../assets/background.gif");
+    url("../../assets/rain1-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  .credits {
+    display: none;
+  }
 }
 </style>

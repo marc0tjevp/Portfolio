@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     getImage(email, size) {
-      return "https://www.gravatar.com/avatar/" + MD5(email) + ".jpg?s=" + size;
+      return "https://www.gravatar.com/avatar/" + MD5(email) + "?s=" + size;
     }
   }
 };

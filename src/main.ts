@@ -18,7 +18,7 @@ Vue.use(BootstrapVue);
 Vue.use(VueResource);
 Vue.use(GitHubAPI, { token: process.env.VUE_APP_GITHUB_TOKEN });
 
-// font Awesome Imports
+// Font Awesome Imports
 import {
   faPhoneSquare,
   faEnvelopeSquare,
