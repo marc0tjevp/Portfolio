@@ -23,7 +23,8 @@ import {
   faPhoneSquare,
   faEnvelopeSquare,
   faCoffee,
-  faHeart
+  faHeart,
+  faEllipsisH
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -33,7 +34,7 @@ import {
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faPhoneSquare, faEnvelopeSquare, faCoffee, faHeart);
+library.add(faPhoneSquare, faEnvelopeSquare, faCoffee, faHeart, faEllipsisH);
 library.add(faGitlab, faLinkedin, faGithubSquare, faGithub);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);

@@ -8,7 +8,7 @@
       border-variant="dark"
       text-variant="white"
       overlay
-      v-on:click="handleProject(project.name)"
+      v-on:click="handleProject(project.name, project.repoUrl)"
     >
     </b-card>
   </div>
@@ -23,8 +23,10 @@ export default {
     }
   },
   methods: {
-    handleProject(name) {
-      this.$router.push({ name: "project", params: { name: name } });
+    // Link to repo for now!
+    handleProject(name, repo) {
+      window.open(repo, "_blank");
+      // this.$router.push({ name: "project", params: { name: name } });
     }
   }
 };

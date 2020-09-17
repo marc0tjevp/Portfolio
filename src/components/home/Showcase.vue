@@ -13,7 +13,7 @@
             target="_blank"
             class="lightgreen"
           >
-            <i class="fa fa-ellipsis-h" />
+            <font-awesome-icon :icon="['fa', 'ellipsis-h']" />
           </b-button>
         </b-col>
       </b-row>
