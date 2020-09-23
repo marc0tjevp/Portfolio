@@ -1,6 +1,6 @@
-FROM alpine:3.7
+FROM mhart/alpine-node:12
 
-RUN apk add --update nginx nodejs
+RUN apk add --update nginx npm
 
 RUN mkdir -p /tmp/nginx/portfolio
 RUN mkdir -p /var/log/nginx
