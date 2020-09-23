@@ -36,7 +36,6 @@
 
 <script>
 import Social from "../common/Social.vue";
-
 import { DATA_ME_CONTACT } from "../../data/me.data.ts";
 
 export default {

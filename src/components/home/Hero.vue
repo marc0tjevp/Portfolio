@@ -43,7 +43,7 @@ export default {
 .jumbotron {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("../../assets/background.gif");
+    url("/assets/header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

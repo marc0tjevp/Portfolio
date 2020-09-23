@@ -26,31 +26,44 @@ export const DATA_PROJECT_SHOWCASE = [
   //     }
   //   ]
   // },
-  // {
-  //   name: "Curiosity Rover App",
-  //   image:
-  //     "https://www.scientias.nl/wp-content/uploads/2019/01/curiosity31.jpg",
-  //   description: "Something something",
-  //   languages: [{ name: "Android", color: "#a4c639" }],
-  //   sections: [
-  //     { title: "Concept", _text: "lala" },
-  //     { title: "API", _text: "lalala" },
-  //     { title: "Android App", _text: "lala" }
-  //   ]
-  // },
+  {
+    name: "Mango",
+    image: "mango.png",
+    description: "Something something",
+    repoUrl: "https://github.com/marc0tjevp/Mango",
+    languages: [{ name: "Android", color: "#a4c639" }],
+    sections: [
+      { title: "Concept", _text: "lala" },
+      { title: "API", _text: "lalala" },
+      { title: "Android App", _text: "lala" }
+    ]
+  },
+  {
+    name: "Curiosity Rover App",
+    image: "rover.png",
+    description: "Something something",
+    repoUrl: "https://github.com/marc0tjevp/Avans-Mars-Rover-Pictures",
+    languages: [{ name: "Android", color: "#a4c639" }],
+    sections: [
+      { title: "Concept", _text: "lala" },
+      { title: "API", _text: "lalala" },
+      { title: "Android App", _text: "lala" }
+    ]
+  }
   // {
   //   name: "NodeRabbit",
   //   image:
   //     "https://www.scottishspca.org/sites/default/files/styles/full_content/public/2019-09/Rabbit%20860x500.jpeg?itok=OvX2YuHA",
   //   description: "Something something",
+  //   repoUrl: "https://github.com/marc0tjevp/NodeRabbit",
   //   languages: [
   //     { name: "Node.js", color: "#215732" },
-  //     { name: "Javacript", color: "#F3BB1D" }
+  //     { name: "Javascript", color: "#F3BB1D" },
   //   ],
   //   sections: [
   //     { title: "Concept", _text: "Lorem ipsum" },
   //     { title: "Message Service", _text: "Lorem ipsum" },
-  //     { title: "Notification Service", _text: "Lorem ipsum" }
-  //   ]
-  // }
+  //     { title: "Notification Service", _text: "Lorem ipsum" },
+  //   ],
+  // },
 ];

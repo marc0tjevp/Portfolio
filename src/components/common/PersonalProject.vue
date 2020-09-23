@@ -2,13 +2,13 @@
   <div id="githubproject">
     <b-card
       :title="project.name"
-      :img-src="project.image"
+      :img-src="`/assets/${project.image}`"
       class="shadow-sm h-100"
       bg-variant="dark"
       border-variant="dark"
       text-variant="white"
       overlay
-      v-on:click="handleProject(project.name)"
+      v-on:click="handleProject(project.name, project.repoUrl)"
     >
     </b-card>
   </div>
@@ -23,8 +23,10 @@ export default {
     }
   },
   methods: {
-    handleProject(name) {
-      this.$router.push({ name: "project", params: { name: name } });
+    // Link to repo for now!
+    handleProject(name, repo) {
+      window.open(repo, "_blank");
+      // this.$router.push({ name: "project", params: { name: name } });
     }
   }
 };
@@ -32,6 +34,7 @@ export default {
 
 <style lang="scss" scoped>
 .card {
+  min-height: 200px;
   max-height: 200px;
   cursor: pointer;
   overflow: hidden;
