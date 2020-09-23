@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  portfolio:
+    container_name: portfolio-prod
+    build: .
+    # image: marc0tjevp/portfolio
+    expose:
+      - 80
+    environment:
+      VIRTUAL_HOST: marcovp.nl
+      LETSENCRYPT_HOST: marcovp.nl
+      LETSENCRYPT_EMAIL: marc0tjevp@gmail.com
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
