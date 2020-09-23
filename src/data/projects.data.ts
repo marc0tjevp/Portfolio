@@ -28,8 +28,7 @@ export const DATA_PROJECT_SHOWCASE = [
   // },
   {
     name: "Mango",
-    image:
-      "https://www.scientias.nl/wp-content/uploads/2019/01/curiosity31.jpg",
+    image: "mango.png",
     description: "Something something",
     repoUrl: "https://github.com/marc0tjevp/Avans-Mars-Rover-Pictures",
     languages: [{ name: "Android", color: "#a4c639" }],

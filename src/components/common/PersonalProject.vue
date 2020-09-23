@@ -2,7 +2,7 @@
   <div id="githubproject">
     <b-card
       :title="project.name"
-      :img-src="project.image"
+      :img-src="`/assets/${project.image}`"
       class="shadow-sm h-100"
       bg-variant="dark"
       border-variant="dark"
