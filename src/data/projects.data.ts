@@ -30,7 +30,7 @@ export const DATA_PROJECT_SHOWCASE = [
     name: "Mango",
     image: "mango.png",
     description: "Something something",
-    repoUrl: "https://github.com/marc0tjevp/Avans-Mars-Rover-Pictures",
+    repoUrl: "https://github.com/marc0tjevp/Mango",
     languages: [{ name: "Android", color: "#a4c639" }],
     sections: [
       { title: "Concept", _text: "lala" },
