@@ -27,6 +27,19 @@ export const DATA_PROJECT_SHOWCASE = [
   //   ]
   // },
   {
+    name: "Mango",
+    image:
+      "https://www.scientias.nl/wp-content/uploads/2019/01/curiosity31.jpg",
+    description: "Something something",
+    repoUrl: "https://github.com/marc0tjevp/Avans-Mars-Rover-Pictures",
+    languages: [{ name: "Android", color: "#a4c639" }],
+    sections: [
+      { title: "Concept", _text: "lala" },
+      { title: "API", _text: "lalala" },
+      { title: "Android App", _text: "lala" }
+    ]
+  },
+  {
     name: "Curiosity Rover App",
     image:
       "https://www.scientias.nl/wp-content/uploads/2019/01/curiosity31.jpg",

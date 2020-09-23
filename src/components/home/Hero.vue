@@ -11,14 +11,6 @@
           <Social iconSize="3" />
         </b-col>
       </b-row>
-      <span class="credits">
-        Photo by
-        <a href="https://unsplash.com/@veeterzy">veeterzy</a>
-        on
-        <a href="https://unsplash.com/collections/403069/rain">
-          Unsplash
-        </a>
-      </span>
     </b-jumbotron>
   </div>
 </template>
@@ -56,8 +48,5 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  .credits {
-    display: none;
-  }
 }
 </style>
