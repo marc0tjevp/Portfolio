@@ -1,6 +1,6 @@
-FROM mhart/alpine-node:12
+FROM mhart/alpine-node:latest
 
-RUN apk add --update nginx npm
+RUN apk add --update nginx nodejs yarn
 
 RUN mkdir -p /tmp/nginx/portfolio
 RUN mkdir -p /var/log/nginx
@@ -11,9 +11,9 @@ COPY nginx_config/default.conf /etc/nginx/conf.d/default.conf
 
 WORKDIR /tmp/nginx/portfolio
 COPY . .
-RUN npm install
+RUN yarn install
 
-RUN npm run build
+RUN yarn build
 RUN cp -r dist/* /var/www/html
 RUN chown nginx:nginx /var/www/html
 
