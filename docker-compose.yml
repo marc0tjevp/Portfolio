@@ -12,7 +12,7 @@ services:
       LETSENCRYPT_HOST: marcovp.nl
       LETSENCRYPT_EMAIL: marc0tjevp@gmail.com
 
-# networks:
-#   default:
-#     external:
-#       name: nginx-proxy
+networks:
+  default:
+    external:
+      name: nginx-proxy
